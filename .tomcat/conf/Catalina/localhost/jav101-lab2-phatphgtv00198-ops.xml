@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="D:/FPT/jav101-lab2-phatphgtv00198-ops/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="D:/FPT/jav101-lab2-phatphgtv00198-ops/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+  </Resources>
+</Context>
