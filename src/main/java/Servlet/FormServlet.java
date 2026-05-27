@@ -10,27 +10,35 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebServlet("/user")
-public class UserServlet extends HttpServlet {
+@WebServlet("/form")
+public class FormServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
 
-        // Gửi message
-        req.setAttribute("message", "Welcome to FPT Polytechnic");
-
-        // Tạo Map user
         Map<String, Object> map = new HashMap<>();
+
         map.put("fullname", "Nguyễn Văn Tèo");
-        map.put("gender", "Male");
-        map.put("country", "Việt Nam");
+        map.put("gender", true);
+        map.put("country", "VN");
 
-        // Gửi user sang JSP
         req.setAttribute("user", map);
+        req.setAttribute("editabled", true);
 
-        // Forward sang page.jsp
-        req.getRequestDispatcher("/bai2/page.jsp")
+        req.getRequestDispatcher("/bai3/form.jsp")
+                .forward(req, resp);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException {
+
+        String fullname = req.getParameter("fullname");
+
+        System.out.println(fullname);
+
+        req.getRequestDispatcher("/bai3/form.jsp")
                 .forward(req, resp);
     }
 }
