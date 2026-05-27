@@ -1,0 +1,41 @@
+26-May-2026 19:08:10.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+26-May-2026 19:08:10.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+26-May-2026 19:08:10.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+26-May-2026 19:08:10.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+26-May-2026 19:08:10.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-May-2026 19:08:10.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-May-2026 19:08:10.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\PHÁT HUY\.jdks\temurin-21.0.10
+26-May-2026 19:08:10.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.10+7-LTS
+26-May-2026 19:08:10.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-May-2026 19:08:10.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\FPT\jav101-lab2-phatphgtv00198-ops\.tomcat
+26-May-2026 19:08:10.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-10.0.27
+26-May-2026 19:08:10.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-May-2026 19:08:10.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-May-2026 19:08:10.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-May-2026 19:08:10.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-May-2026 19:08:10.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-May-2026 19:08:10.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-10.0.27
+26-May-2026 19:08:10.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\FPT\jav101-lab2-phatphgtv00198-ops\.tomcat
+26-May-2026 19:08:10.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\FPT\jav101-lab2-phatphgtv00198-ops\.tomcat\temp
+26-May-2026 19:08:10.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\FPT\jav101-lab2-phatphgtv00198-ops\.tomcat\conf\logging.properties
+26-May-2026 19:08:10.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-May-2026 19:08:10.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:D:\Test\IntelliJ IDEA 2026.1\lib\idea_rt.jar=49365
+26-May-2026 19:08:10.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+26-May-2026 19:08:10.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+26-May-2026 19:08:10.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+26-May-2026 19:08:10.725 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+26-May-2026 19:08:10.725 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+26-May-2026 19:08:10.738 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+26-May-2026 19:08:11.132 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-May-2026 19:08:11.150 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [686] milliseconds
+26-May-2026 19:08:11.204 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-May-2026 19:08:11.204 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+26-May-2026 19:08:11.217 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\FPT\jav101-lab2-phatphgtv00198-ops\.tomcat\conf\Catalina\localhost\jav101-lab2-phatphgtv00198-ops.xml]
+26-May-2026 19:08:11.621 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-May-2026 19:08:11.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\FPT\jav101-lab2-phatphgtv00198-ops\.tomcat\conf\Catalina\localhost\jav101-lab2-phatphgtv00198-ops.xml] has finished in [461] ms
+26-May-2026 19:08:11.681 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-May-2026 19:08:11.711 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [561] milliseconds
+26-May-2026 19:47:23.519 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-May-2026 19:47:23.528 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-May-2026 19:47:23.576 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-May-2026 19:47:23.592 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
